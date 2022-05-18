@@ -24,6 +24,10 @@ namespace LogicalProgram
                     PerfectNum perfectNum = new PerfectNum();
                     perfectNum.Perfect_Num();
                     break;
+                case 3:
+                        PrimeNumber primeNum = new PrimeNumber();
+                         primeNum.PrimeNum();
+                        break;
                 default:
                     Console.WriteLine("Please SELECT correct number ! ");
                     break;
