@@ -32,6 +32,11 @@ namespace LogicalProgram
                           ReverseNumber rev=new ReverseNumber();
                           rev.ReverseNum();
                          break;
+                case 5:
+                    StopwatchTimeCalcu stopW= new StopwatchTimeCalcu();
+                    stopW.StopwatchCal();
+                    break;
+
                 default:
                     Console.WriteLine("Please SELECT correct number ! ");
                     break;
