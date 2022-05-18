@@ -36,6 +36,10 @@ namespace LogicalProgram
                     StopwatchTimeCalcu stopW= new StopwatchTimeCalcu();
                     stopW.StopwatchCal();
                     break;
+                case 6:
+                    Coupon co=new Coupon();
+                    co.Generator();
+                    break;
 
                 default:
                     Console.WriteLine("Please SELECT correct number ! ");
