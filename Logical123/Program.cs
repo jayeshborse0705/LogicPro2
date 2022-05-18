@@ -28,6 +28,10 @@ namespace LogicalProgram
                         PrimeNumber primeNum = new PrimeNumber();
                          primeNum.PrimeNum();
                         break;
+                 case  4 :
+                          ReverseNumber rev=new ReverseNumber();
+                          rev.ReverseNum();
+                         break;
                 default:
                     Console.WriteLine("Please SELECT correct number ! ");
                     break;
